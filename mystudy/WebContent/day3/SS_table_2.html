@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+<style type="text/css">
+h1{
+	color: skyblue;
+}
+
+table{
+	width: 500px;
+	height: 150px;
+}
+
+
+table td{
+	border: 1px solid lightgray;
+	border-collapse: collapse;
+}
+
+table{
+	border-top: 3px solid skyblue;
+	border-bottom: 3px solid skyblue;
+	border-collapse: collapse;
+}
+
+#a{
+	text-align: right;
+}
+
+#bt{
+	color: magenta;
+}
+
+.bt1{
+	margin-left: 200px;
+}
+
+.tt{
+	width: 350px;
+}
+</style>
+</head>
+<body>
+	<header>
+		<h1>글쓰기</h1>
+	</header>
+	<section>
+			<table>
+				<tr>
+					<td id = a>제목</td>
+					<td><input type = 'text' class = "tt"></td>
+				</tr>
+				<tr>
+					<td id = a>작성자</td>
+					<td><input type = 'text' class = "tt"></td>
+				</tr>
+				<tr>
+					<td id = a>비밀번호</td>
+					<td><input type = 'text' class = "tt"></td>
+				</tr>
+				<tr>
+					<td id = a >내용</td>
+					<td><textarea cols="50" rows = "10"></textarea></td>
+				</tr>
+				<tr>
+					<td colspan = '2'><button id = 'bt' class = 'bt1'>등록</button><button id = 'bt'>글목록</button></td>
+				</tr>
+				
+			</table>
+	</section>
+</body>
+</html>
